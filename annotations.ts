@@ -29,3 +29,15 @@ let car : Car = new Car();
 
 
 // Object Literals
+let point: {x : number, y : number} = {
+    x: 10,
+    y: 20
+}
+
+//Functions
+const LogNumber: (i : number) => void = (i: number) => {
+    console.log(i);
+}
+
+// When to use annotations
+//1) Function returns the "any" type
